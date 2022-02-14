@@ -48,7 +48,7 @@ ${renderLicenseBadge(data.license)}
 ${data.description}
 
 ## Table of Contents
-${renderInstallSection(data.installinstructions)[1]}
+${renderInstallationSection(data.installInstructions)[1]}
 
 * [Usage](#Usage)
 ${renderLicenseSection(data.license)[1]}
