@@ -112,9 +112,26 @@ const questions = [
         },
 ]
 
-
 // function to write readme file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+    return new Promise((resolve, reject) => {
+        fs.writeFile(fileName, data, err => {
+            if (err {
+                console.clear();
+                console.log("Something went wrong. File was not created.");
+                reject(err);
+                return;
+            } else { 
+                console.clear();
+                console.log("Great success! Your file has been created.");
+            }
+            resolve ({
+                ok: true,
+                message: "Great success! Your file has been created."
+            });
+        });
+    });
+};
 
 // function to initialize app
 function init() {}
