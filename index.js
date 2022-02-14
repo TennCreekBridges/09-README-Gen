@@ -134,7 +134,15 @@ function writeToFile(fileName, data) {
 };
 
 // function to initialize app
-function init() {}
+function init() {
+    console.clear();
+    console.log(`
+    *****************************
+    ***    README GENERATOR   ***
+    *****************************
+    `);
+    return inquirer.prompt(questions);
+};
 
 // Function call to initialize app
 init();
