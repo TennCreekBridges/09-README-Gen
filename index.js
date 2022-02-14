@@ -1,6 +1,7 @@
 // load packages
 const fs = require('fs');
 const inquirer = require('inquirer');
+const generateMarkdown = require('./utils/generateMarkdown.js');
 
 // questions to generate README
 const questions = [
