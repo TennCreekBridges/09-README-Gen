@@ -116,7 +116,7 @@ const questions = [
 function writeToFile(fileName, data) {
     return new Promise((resolve, reject) => {
         fs.writeFile(fileName, data, err => {
-            if (err {
+            if (err) {
                 console.clear();
                 console.log("Something went wrong. File was not created.");
                 reject(err);
@@ -145,4 +145,10 @@ function init() {
 };
 
 // Function call to initialize app
-init();
+init()
+    .then(readmeData => {
+        return generateMarkdown(readmeData)
+    })
+    .then((completedReadme) => {
+        return writeToFile('./readme/README.md', completedReadme);
+    })
