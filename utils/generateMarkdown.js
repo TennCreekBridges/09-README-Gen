@@ -19,7 +19,7 @@ function renderLicenseLink(license) {
 // creates a function that returns the license section of README and if there is no license, return an empty string
 function renderLicenseSection(license) {
   if (license === "None") {
-    return 'No License';
+    return "No License";
   } else {
     return [
       `## License \nThis project was developed under the ${license} license.`,
@@ -31,7 +31,7 @@ function renderLicenseSection(license) {
 // generate installation instructions or blank string if not available
 function renderInstallationSection(install) {
   if (!install) {
-    return 'No installation instructions available';
+    return "No installation instructions available";
   } else {
     return [`## Installation \n${install}`, `* [Installation](#Installation)`];
   }
@@ -57,6 +57,8 @@ ${renderLicenseSection(data.license)[1]}
 
 * [Questions](#Questions)
 
+* [Testing](#Testing)
+
 ## Usage
 ${data.usage}
 ${renderLicenseSection(data.license)[0]}
@@ -67,7 +69,14 @@ ${data.contributions}
 
 ## Questions
 You may direct any questions about the project to [${
-    data.gitHub}](https://github.com/${data.gitHub}), via email: [${data.email}](mailto:${data.email}).`;
+    data.gitHub
+  }](https://github.com/${data.gitHub}), via email: [${data.email}](mailto:${
+    data.email
+  }).
+
+## Testing
+App testing method: [${data.testInstructions}]
+`;
 }
 
 module.exports = generateMarkdown;

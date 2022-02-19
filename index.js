@@ -106,11 +106,19 @@ const questions = [
             message: 'What license does this app fall under?',
             choices: ['MIT', 'GNU', 'Apache', 'None']
         },
+
+        {
+            type: 'input',
+            name: 'testInstructions',
+            message: 'How should we deploy tests on your app?'
+        },
+
         {
             type: 'input',
             name: 'contributions',
-            message: 'Describe how to run tests on your app.',
+            message: 'How should a developer contribute to this app?',
         },
+
 ]
 
 // function to write readme file
