@@ -61,7 +61,7 @@ const questions = [
 // questions on specific requirements to run app
         {
             type: 'confirm',
-            name: 'installRequred',
+            name: 'installRequired',
             message: 'Are there specific requirements to run your app?',
             default: true,
         },
