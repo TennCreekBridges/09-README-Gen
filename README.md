@@ -13,11 +13,13 @@ This handy app generates a README for the user based on interaction with the com
 * [Contributions](#contributions)
 * [Questions](#questions)
 * [Testing](#testing)
+* [Technologies](#technologies)
+* [Walkthrough Video](#walkthrough)
+* [Screenshots](#screenshots)
 
 <a name="installation"></a>
 ## Installation
-First, you must clone the repo at 'git@github.com:TennCreekBridges/09-README-Gen.git. Next, navigate to the project root directory. Run 'npm install' at the command prompt, and run the Professional README Generator app from the command prompt by entering 'node index'. Enjoy your professional README file!
-
+First, you must clone the repo, <a href="git@github.com:TennCreekBridges/09-README-Gen.git">git@github.com:TennCreekBridges/09-README-Gen.git</a>. Next, navigate to the project root directory. Run 'npm install' at the command prompt, and run the Professional README Generator app from the command prompt by entering 'node index'. Enjoy your professional README file!
 
 <a name="usage"></a>
 ## Usage
@@ -37,3 +39,14 @@ You may direct any questions about the project to [TennCreekBridges](https://git
 <a name="testing"></a>
 ## Testing
 Run the application in your local testing environment to deploy tests.
+
+<a name="technologies"></a>
+## Technologies
+This app uses node.js, npm and fs (File System module via node.js)
+
+<a name="walkthrough"></a>
+## Walkthrough Video
+
+<a name="screenshots"></a>
+## Screenshots
+
