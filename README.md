@@ -49,4 +49,9 @@ This app uses Node.js, npm and fs (File System module via node.js).
 
 <a name="screenshots"></a>
 ## Screenshots
+Screenshot 1
+![Screen Shot 2022-02-20 at 3 43 03 PM](https://user-images.githubusercontent.com/91682561/154866200-516d189a-35ac-4d19-8585-c89e7d8d1885.png)
+
+Screenshot 2
+![Screen Shot 2022-02-20 at 3 44 52 PM](https://user-images.githubusercontent.com/91682561/154866174-9281f0b0-e763-44f6-b607-e0a1ff5fcf57.png)
 
