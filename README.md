@@ -19,7 +19,7 @@ This handy app generates a README for the user based on interaction with the com
 
 <a name="installation"></a>
 ## Installation
-First, you must clone the repo located at "git@github.com:TennCreekBridges/09-README-Gen.git". Next, navigate to the project root directory. Run 'npm install' at the command prompt, and run the Professional README Generator app from the command prompt by entering 'node index'. Enjoy your professional README file!
+First, you clone the repo located at https://github.com/TennCreekBridges/09-README-Gen. Next, navigate to the project root directory. Run 'npm install' at the command prompt, and run the Professional README Generator app from the command prompt by entering 'node index'. Enjoy your professional README file!
 
 <a name="usage"></a>
 ## Usage
