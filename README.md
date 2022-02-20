@@ -19,11 +19,11 @@ This handy app generates a README for the user based on interaction with the com
 
 <a name="installation"></a>
 ## Installation
-First, you clone the repo located at https://github.com/TennCreekBridges/09-README-Gen. Next, navigate to the project root directory. Run 'npm install' at the command prompt, and run the Professional README Generator app from the command prompt by entering 'node index'. Enjoy your professional README file!
+First, clone the repo located at https://github.com/TennCreekBridges/09-README-Gen. Next, navigate to the project root directory. Run 'npm install' at the command prompt, and run the Professional README Generator app from the command prompt by entering 'node index'. Enjoy your professional README file!
 
 <a name="usage"></a>
 ## Usage
-This app will be used to aid people who are incapable of otherwise generating a README file. Kidding. This app is used to generate a professional README file using command line prompts and node.js.
+This app will be used to aid people who are incapable of otherwise generating a README file. Kidding. This app is used to generate a professional README file using command line prompts and Node.js.
 ## License 
 This project was developed under the GNU license.
 [More information about GNU](https://opensource.org/licenses/GNU)
@@ -42,7 +42,7 @@ Run the application in your local testing environment to deploy tests.
 
 <a name="technologies"></a>
 ## Technologies
-This app uses node.js, npm and fs (File System module via node.js)
+This app uses Node.js, npm and fs (File System module via node.js).
 
 <a name="walkthrough"></a>
 ## Walkthrough Video
