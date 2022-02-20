@@ -28,14 +28,14 @@ function renderLicenseSection(license) {
   }
 }
 
-// generate installation instructions or blank string if not available
-function renderInstallationSection(install) {
-  if (!install) {
-    return "No installation instructions available";
-  } else {
-    return [`## Installation \n${install}`, `* [Installation](#Installation)`];
-  }
-}
+// generate installation instructions
+// function renderInstallationSection(install) {
+//   if (!install) {
+//     return "No installation instructions available";
+//   } else {
+//     return [`## Installation \n${install}`, `* [Installation](#Installation)`];
+//   }
+// }
 
 // creates a function to generate markdown for README
 function generateMarkdown(data) {
@@ -48,25 +48,29 @@ ${renderLicenseBadge(data.license)}
 ${data.description}
 
 ## Table of Contents
-${renderInstallationSection(data.installInstructions)[1]}
-
-* [Usage](#Usage)
+* [Installation](#installation)
+* [Usage](#usage)
 ${renderLicenseSection(data.license)[1]}
+* [Contributions](#contributions)
+* [Questions](#questions)
+* [Testing](#testing)
 
-* [Contributions](#Contributions)
+<a name="installation"></a>
+## Installation
+${data.installation}
 
-* [Questions](#Questions)
 
-* [Testing](#Testing)
-
+<a name="usage"></a>
 ## Usage
 ${data.usage}
 ${renderLicenseSection(data.license)[0]}
 ${renderLicenseLink(data.license)}
 
+<a name="contributions"></a>
 ## Contributions
 ${data.contributions}
 
+<a name="questions"></a>
 ## Questions
 You may direct any questions about the project to [${
     data.gitHub
@@ -74,8 +78,9 @@ You may direct any questions about the project to [${
     data.email
   }).
 
+<a name="testing"></a>
 ## Testing
-App testing method: [${data.testInstructions}]
+${data.testInstructions}
 `;
 }
 

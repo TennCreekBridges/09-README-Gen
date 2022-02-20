@@ -1,29 +1,39 @@
 
-# README Generator
+# This is AWESOME
   
-![License](https://img.shields.io/badge/License-GNU-brightgreen)
+![License](https://img.shields.io/badge/License-MIT-brightgreen)
 
 ## Description
-This handy app generates a readme for the user based on interaction with the command prompt.
+Project description is rambly.
 
 ## Table of Contents
-* [Installation](#Installation)
-
-* [Usage](#Usage)
+* [Installation](#installation)
+* [Usage](#usage)
 * [License](#License)
+* [Contributions](#contributions)
+* [Questions](#questions)
+* [Testing](#testing)
 
-* [Contributions](#Contributions)
+<a name="installation"></a>
+## Installation
+This is how you install it.
 
-* [Questions](#Questions)
 
+<a name="usage"></a>
 ## Usage
-This app should be used by folks who are incapable of otherwise generating a README file. Kidding. It should be used by someone looking to understand node.js and generating dynamic content via the command line.
+You need to use it thus.
 ## License 
-This project was developed under the GNU license.
-[More information about GNU](https://opensource.org/licenses/GNU)
+This project was developed under the MIT license.
+[More information about MIT](https://opensource.org/licenses/MIT)
 
+<a name="contributions"></a>
 ## Contributions
-That is the question for you, good people.
+Contribute by
 
+<a name="questions"></a>
 ## Questions
-You may direct any questions about the project to [TennCreekBridges](https://github.com/TennCreekBridges), via email: [bridgettvalet@gmail.com](mailto:bridgettvalet@gmail.com).
+You may direct any questions about the project to [GitHubUserName3](https://github.com/GitHubUserName3), via email: [Git@Hub.user](mailto:Git@Hub.user).
+
+<a name="testing"></a>
+## Testing
+Deploy tests by
