@@ -145,11 +145,11 @@ function writeToFile(fileName, data) {
         return;
       } else {
         console.clear();
-        console.log("Great success! Your file has been created.");
+        console.log("Great success! Your README.md has been created. It lives at ./readme/README.md.");
       }
       resolve({
         ok: true,
-        message: "Great success! Your file has been created.",
+        message: "Great success! Your README.md has been created. It lives at ./readme/README.md.",
       });
     });
   });
@@ -160,7 +160,7 @@ function init() {
   console.clear();
   console.log(`
     =============================
-           README GENERATOR   
+    PROFESSIONAL README GENERATOR   
     =============================
     `);
   return inquirer.prompt(questions);

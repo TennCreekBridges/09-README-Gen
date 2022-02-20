@@ -1,10 +1,10 @@
 
-# This is AWESOME
+# Professional README Generator
   
-![License](https://img.shields.io/badge/License-MIT-brightgreen)
+![License](https://img.shields.io/badge/License-GNU-brightgreen)
 
 ## Description
-Project description is rambly.
+This handy app generates a README for the user based on interaction with the command prompt.
 
 ## Table of Contents
 * [Installation](#installation)
@@ -16,24 +16,24 @@ Project description is rambly.
 
 <a name="installation"></a>
 ## Installation
-This is how you install it.
+First, you must clone the repo at 'git@github.com:TennCreekBridges/09-README-Gen.git. Next, navigate to the project root directory. Run 'npm install' at the command prompt, and run the Professional README Generator app from the command prompt by entering 'node index'. Enjoy your professional README file!
 
 
 <a name="usage"></a>
 ## Usage
-You need to use it thus.
+This app will be used to aid people who are incapable of otherwise generating a README file. Kidding. This app is used to generate a professional README file using command line prompts and node.js.
 ## License 
-This project was developed under the MIT license.
-[More information about MIT](https://opensource.org/licenses/MIT)
+This project was developed under the GNU license.
+[More information about GNU](https://opensource.org/licenses/GNU)
 
 <a name="contributions"></a>
 ## Contributions
-Contribute by
+If you would like to contribute, feel free to drop me a line via the email link below.
 
 <a name="questions"></a>
 ## Questions
-You may direct any questions about the project to [GitHubUserName3](https://github.com/GitHubUserName3), via email: [Git@Hub.user](mailto:Git@Hub.user).
+You may direct any questions about the project to [TennCreekBridges](https://github.com/TennCreekBridges), via email: [bridgettvalet@gmail.com](mailto:bridgettvalet@gmail.com).
 
 <a name="testing"></a>
 ## Testing
-Deploy tests by
+Run the application in your local testing environment to deploy tests.
