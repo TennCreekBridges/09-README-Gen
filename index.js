@@ -3,7 +3,7 @@ const fs = require("fs");
 const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown.js");
 
-// questions to generate README
+// questions to generate README - github name
 const questions = [
   {
     type: "input",
@@ -18,6 +18,8 @@ const questions = [
       }
     },
   },
+
+  // enter email input
   {
     type: "input",
     name: "email",
@@ -33,6 +35,8 @@ const questions = [
       }
     },
   },
+
+  // enter project title
   {
     type: "input",
     name: "title",
@@ -48,6 +52,8 @@ const questions = [
       }
     },
   },
+
+  // enter project description
   {
     type: "input",
     name: "description",
@@ -64,7 +70,7 @@ const questions = [
     },
   },
 
-  // questions on specific requirements to run app
+  // questions on specific installation to run app
   {
     type: "confirm",
     name: "installRequired",
@@ -74,28 +80,21 @@ const questions = [
   {
     type: "input",
     name: "installation",
-    message: "Please enter installation instructions for your project. (required)",
+    message:
+      "Please enter installation instructions for your project. (required)",
     validate: (installationInput) => {
       if (installationInput) {
         return true;
       } else {
-        console.log("You told us we need to do something to install... so please let us know what that is.");
+        console.log(
+          "You told us we need to do something to install... so please let us know what that is."
+        );
         return false;
-
-        // type: "input",
-        // name: "install",
-        // message: "Please enter installation instructions for your project. (required)",
-        // validate: (installationInput) => {
-        //   if (installationInput) {
-        //     return true;
-        //   } else {
-        //     console.log('You told us we need to do something to install... so please let us know what that is.');
-        //     return false;
       }
     },
   },
 
-  // usage questions
+  // usage question
   {
     type: "input",
     name: "usage",
@@ -111,6 +110,8 @@ const questions = [
       }
     },
   },
+
+  // license type
   {
     type: "list",
     name: "license",
@@ -118,12 +119,14 @@ const questions = [
     choices: ["MIT", "GNU", "Apache", "None"],
   },
 
+  // test instructions
   {
     type: "input",
     name: "testInstructions",
     message: "How should we deploy tests on your app?",
   },
 
+  // developer contribution instructions
   {
     type: "input",
     name: "contributions",
@@ -156,14 +159,14 @@ function writeToFile(fileName, data) {
 function init() {
   console.clear();
   console.log(`
-    *****************************
-    ***    README GENERATOR   ***
-    *****************************
+    =============================
+           README GENERATOR   
+    =============================
     `);
   return inquirer.prompt(questions);
 }
 
-// Function call to initialize app
+// function call to initialize app
 init()
   .then((readmeData) => {
     return generateMarkdown(readmeData);
