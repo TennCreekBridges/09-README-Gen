@@ -1,7 +1,7 @@
 {
   "name": "static-site",
   "version": "1.0.0",
-  "description": "",
+  "description": "![License](https://img.shields.io/badge/License-GNU-brightgreen)",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,5 +10,15 @@
   "license": "ISC",
   "dependencies": {
     "inquirer": "^8.2.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TennCreekBridges/09-README-Gen.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/TennCreekBridges/09-README-Gen/issues"
+  },
+  "homepage": "https://github.com/TennCreekBridges/09-README-Gen#readme"
 }
